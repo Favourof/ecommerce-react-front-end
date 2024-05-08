@@ -4,16 +4,15 @@ import Home from "@/pages/Home";
 import SingleProduct from "@/pages/products/slug";
 import { createBrowserRouter } from "react-router-dom";
 import HomePage from "./HomePage";
-import DashboardPage from "./DashboardPage";
 import Products from "@/pages/products";
-<<<<<<< HEAD
 import CartProduct from "@/pages/cart/component/CartProduct";
-import Footer from "@/myComponents/Footer";
+import DashboardPage from "./DashboardPage";
 import CreateProduct from "@/pages/dashboard/createProduct";
 
-=======
-import CreateProduct from "@/pages/dashboard/createProduct";
->>>>>>> 8d49bdc62ff996226b93e3ef038688f6d46d1a0c
+// import Footer from "@/myComponents/Footer";
+
+
+
 
 export const route = createBrowserRouter([
   {
@@ -51,16 +50,12 @@ export const route = createBrowserRouter([
         element: <h1>THis is the dashboard</h1>,
       },
       {
-        path: "create-product",
+        path: "createproduct",
         element: <CreateProduct />,
       },
       {
         path: "settings",
         element:  <h1>THis is the setting</h1>
-      },
-      {
-        path: "CraeteProduct",
-        element: <CreateProduct />
       },
       {
         path: "support",

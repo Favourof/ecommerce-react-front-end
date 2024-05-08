@@ -2,9 +2,10 @@
 
 
 
+
 import Updateproduct from "./component/Updateproduct";
 import { useGetSingleProduct } from "./hooks/useGetSingleProduct";
-import UpdateForm from './components/UpdateForm'
+// import UpdateForm from './component/UpdateForm'
 
 
 const SingleProduct = () => {
@@ -148,11 +149,7 @@ const SingleProduct = () => {
             Check availability in store
           </button>
 
-<<<<<<< HEAD
           <button onClick={handleDeleteProduct} className= " mt-3 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 text-base flex items-center justify-center leading-none text-white bg-gray-800 w-full py-4 hover:bg-gray-700 focus:outline-none">Delete</button>
-=======
-          <button onClick={handleDeleteProduct} className='border px-4 py-2'>Delete</button>
->>>>>>> 8d49bdc62ff996226b93e3ef038688f6d46d1a0c
           <div>
             <p className="xl:pr-48 text-base lg:leading-tight leading-normal text-gray-600 dark:text-gray-300 mt-7">
               {product?.description}
@@ -244,11 +241,7 @@ const SingleProduct = () => {
       </div>
     </div>
 
-<<<<<<< HEAD
     <Updateproduct product={product}/>
-=======
-    <UpdateForm product={product} />
->>>>>>> 8d49bdc62ff996226b93e3ef038688f6d46d1a0c
    </>
   );
 };

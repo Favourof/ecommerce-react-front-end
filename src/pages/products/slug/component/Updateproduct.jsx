@@ -1,7 +1,6 @@
 import React from 'react'
 import { inputs } from "@/myComponents/Form/input";
 import GenericFormInputs from "@/shared/GenericFormInputs";
-
 import { Form } from "@/components/ui/form";
 import { Button } from "@/components/ui/button";
 import {useUpdateProduct} from '../hooks/useUpdateProduct'

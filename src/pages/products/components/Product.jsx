@@ -38,13 +38,8 @@ const Product = () => {
                         {product?.description?.slice(0, 50)}
                       </p>
                     </div>
-<<<<<<< HEAD
                     <Button className="bg-transparent border-1 text-black border hover:bg-slate-200">
                       Add TO Cart 
-=======
-                    <Button onClick={handleAddTOCArt} className="bg-transparent border-1 text-black border hover:bg-slate-200">
-                      Add TO Cart
->>>>>>> 8d49bdc62ff996226b93e3ef038688f6d46d1a0c
                     </Button>
 
                     {/* <Modal id={product._id} /> */}

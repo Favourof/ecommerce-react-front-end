@@ -14,19 +14,11 @@ const DashboardPage = () => {
       name: "Support",
       path: "support",
     },
-<<<<<<< HEAD
     {
-      name: "createProduct",
-      path: "CraeteProduct  ",
+      name: "createproduct",
+      path: "createproduct",
     },
 
-=======
-
-    {
-      name: "Create Product",
-      path: "create-product",
-    },
->>>>>>> 8d49bdc62ff996226b93e3ef038688f6d46d1a0c
   ];
   return (
     <div>
